@@ -1,3 +1,4 @@
+Note on test location: this is a Maven/Java project, so tests live under `src/test/java/...` per standard Java convention — this is the equivalent of a top-level `tests/` folder for this stack. Maven's build tooling (`mvn test`) specifically expects tests here; a separate top-level `tests/` directory would not be picked up by the build.
 # Smart Expense Tracker API
 
 A REST API for tracking personal expenses, built for the Diligent Software Engineering Apprenticeship 2026 take-home assignment.

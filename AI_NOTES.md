@@ -24,4 +24,3 @@ Everything worked as documented; no code fixes were needed. The only real "bug" 
 ## 3. AI suggestions I didn't use, and why
 
 The AI offered file-based JSON persistence as an alternative to in-memory storage. I kept in-memory since the assignment spec allows either and it's simpler to test — no risk of stale state between runs.
-
